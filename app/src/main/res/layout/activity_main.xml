@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cuongvo.tinklabstest.MainActivity">
+
+    <io.karim.MaterialTabs
+        android:id="@+id/main_activity_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorLightGray"
+        android:textColor="@color/colorDarkGray"
+        app:mtIndicatorColor="@color/colorDarkGray"
+        app:mtIndicatorHeight="3dp"
+        app:mtPaddingMiddle="false"
+        app:mtSameWeightTabs="false"
+        app:mtTextAllCaps="true"
+        app:mtTextColorSelected="@color/colorDarkBlue" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_activity_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
