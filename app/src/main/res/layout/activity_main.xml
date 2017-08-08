@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cuongvo.tinklabstest.MainActivity">
+    tools:context="cuongvo.mvp_example.cuongvo.mvp_example.MainActivity">
 
     <io.karim.MaterialTabs
         android:id="@+id/main_activity_tabs"

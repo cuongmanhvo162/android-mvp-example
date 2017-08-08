@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <cuongvo.tinklabstest.view.component.ViewList
+    <cuongvo.mvp_example.view.component.ViewList
         android:id="@+id/fragment_city_guide_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
